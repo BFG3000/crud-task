@@ -1,0 +1,8 @@
+make sure you got the exact versions for on prem
+
+//------ node v10.16.3 ---------------------------------
+npm i -g yo@3.1.0
+npm i -g gulp@4.0.2
+npm install -g @microsoft/generator-sharepoint@1.9.1
+yo @microsoft/sharepoint
+//-------------------------------------------------------

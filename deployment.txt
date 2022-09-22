@@ -1,0 +1,19 @@
+1- run `npm i`
+2- in the webpart folder go to /config
+3- open write-manifests.json
+4- replace `cdnBasePath` value with a path to an Empty folder on site assets or application site and make sure to grant read access to everyone on this folder
+5- run the following commands: 
+	gulp clean
+	gulp build
+	gulp bundle --ship
+	gulp package-solution --ship
+
+6- in the webpart folder go to /temp/deploy
+7- copy all the files in this folder and paste it in the folder created in step 4
+8- go to application site and deploy the .sppkg file located in /sharepoint/solution
+8- install the application on the required site
+9-add 2 lists (employee - department)
+department (Department_name)
+employee (employee_name - employee_address -department_id (type: Lookup from department)
+
+10- make sure the route ends in /#/ on the deployed page
