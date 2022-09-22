@@ -3,6 +3,9 @@
     padding: 1rem;
     min-width: 150px;
     outline: none;
-    color: #fff;
-    background: rgb(30, 22, 151);
+    color: rgb(255, 255, 255);
+    background: rgb(26, 84, 194);
+    text-align: center;
+    text-decoration: none;
+    border-radius: .5rem;
 }
